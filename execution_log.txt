@@ -1,0 +1,310 @@
+Lambda Execution Result (Latest Run):
+=== Experiment Errors ===
+
+2025-09-22 03:29:50,040 - INFO - Starting LP Robust Conformal Prediction Experiment
+
+2025-09-22 03:29:50,040 - INFO - ============================================================
+
+2025-09-22 03:29:50,040 - INFO - Generating time series data with distribution shift...
+
+2025-09-22 03:29:50,041 - INFO - Applied distribution shift at index 300 with magnitude 3.0
+
+2025-09-22 03:29:50,041 - INFO - Generated time series with 500 samples
+
+2025-09-22 03:29:50,041 - INFO - Generating forecasts...
+
+2025-09-22 03:29:50,044 - INFO - Data split: 250 calibration, 250 test samples
+
+2025-09-22 03:29:50,044 - INFO - Distribution shift occurs at index 300 (test index: 50)
+
+2025-09-22 03:29:50,044 - INFO - --------------------------------------------------
+
+2025-09-22 03:29:50,044 - INFO - Testing ε=0.0, ρ=0.0
+
+2025-09-22 03:29:50,044 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.0
+
+2025-09-22 03:29:50,045 - INFO - Standard quantile (0.904): 1.4896
+
+2025-09-22 03:29:50,045 - INFO - LP robust quantile (0.904 + ε=0.0): 1.4896
+
+2025-09-22 03:29:50,045 - INFO - Calibration completed. Calculated quantile: 1.4896
+
+2025-09-22 03:29:50,045 - INFO - Calibration scores range: [0.0000, 2.9291]
+
+2025-09-22 03:29:50,045 - INFO - Generated prediction intervals with width: 2.9791
+
+2025-09-22 03:29:50,045 - INFO - Empirical coverage: 87.60% (Target: 90.00%)
+
+2025-09-22 03:29:50,045 - INFO - Average interval width: 2.9791
+
+2025-09-22 03:29:50,045 - INFO - --------------------------------------------------
+
+2025-09-22 03:29:50,045 - INFO - Testing ε=0.1, ρ=0.05
+
+2025-09-22 03:29:50,045 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.1, rho=0.05
+
+2025-09-22 03:29:50,045 - INFO - Standard quantile (0.904): 1.4896
+
+2025-09-22 03:29:50,045 - INFO - LP robust quantile (0.954 + ε=0.1): 1.8549
+
+2025-09-22 03:29:50,045 - INFO - Calibration completed. Calculated quantile: 1.8549
+
+2025-09-22 03:29:50,045 - INFO - Calibration scores range: [0.0000, 2.9291]
+
+2025-09-22 03:29:50,045 - INFO - Generated prediction intervals with width: 3.7099
+
+2025-09-22 03:29:50,045 - INFO - Empirical coverage: 93.60% (Target: 90.00%)
+
+2025-09-22 03:29:50,046 - INFO - Average interval width: 3.7099
+
+2025-09-22 03:29:50,046 - INFO - --------------------------------------------------
+
+2025-09-22 03:29:50,046 - INFO - Testing ε=0.2, ρ=0.1
+
+2025-09-22 03:29:50,046 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.2, rho=0.1
+
+2025-09-22 03:29:50,046 - INFO - Standard quantile (0.904): 1.4896
+
+2025-09-22 03:29:50,046 - INFO - LP robust quantile (1.000 + ε=0.2): 3.1291
+
+2025-09-22 03:29:50,046 - INFO - Calibration completed. Calculated quantile: 3.1291
+
+2025-09-22 03:29:50,046 - INFO - Calibration scores range: [0.0000, 2.9291]
+
+2025-09-22 03:29:50,046 - INFO - Generated prediction intervals with width: 6.2583
+
+2025-09-22 03:29:50,046 - INFO - Empirical coverage: 97.60% (Target: 90.00%)
+
+2025-09-22 03:29:50,046 - INFO - Average interval width: 6.2583
+
+2025-09-22 03:29:50,046 - INFO - --------------------------------------------------
+
+2025-09-22 03:29:50,046 - INFO - Testing ε=0.3, ρ=0.15
+
+2025-09-22 03:29:50,046 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.3, rho=0.15
+
+2025-09-22 03:29:50,046 - INFO - Standard quantile (0.904): 1.4896
+
+2025-09-22 03:29:50,046 - INFO - LP robust quantile (1.000 + ε=0.3): 3.2291
+
+2025-09-22 03:29:50,046 - INFO - Calibration completed. Calculated quantile: 3.2291
+
+2025-09-22 03:29:50,046 - INFO - Calibration scores range: [0.0000, 2.9291]
+
+2025-09-22 03:29:50,046 - INFO - Generated prediction intervals with width: 6.4583
+
+2025-09-22 03:29:50,046 - INFO - Empirical coverage: 98.00% (Target: 90.00%)
+
+2025-09-22 03:29:50,047 - INFO - Average interval width: 6.4583
+
+2025-09-22 03:29:50,047 - INFO - ============================================================
+
+2025-09-22 03:29:50,047 - INFO - EXPERIMENT SUMMARY
+
+2025-09-22 03:29:50,047 - INFO - ============================================================
+
+2025-09-22 03:29:50,047 - INFO - ε=0.0, ρ=0.00: Coverage=87.6%, Width=2.979, Quantile=1.490
+
+2025-09-22 03:29:50,047 - INFO - ε=0.1, ρ=0.05: Coverage=93.6%, Width=3.710, Quantile=1.855
+
+2025-09-22 03:29:50,047 - INFO - ε=0.2, ρ=0.10: Coverage=97.6%, Width=6.258, Quantile=3.129
+
+2025-09-22 03:29:50,047 - INFO - ε=0.3, ρ=0.15: Coverage=98.0%, Width=6.458, Quantile=3.229
+
+2025-09-22 03:29:50,047 - INFO - ============================================================
+
+2025-09-22 03:29:50,047 - INFO - CONCLUSION
+
+2025-09-22 03:29:50,047 - INFO - ============================================================
+
+2025-09-22 03:29:50,047 - INFO - The experiment demonstrates that LP robust conformal prediction
+
+2025-09-22 03:29:50,047 - INFO - can maintain valid coverage under distribution shifts by adjusting
+
+2025-09-22 03:29:50,047 - INFO - the robustness parameters (ε and ρ). Higher robustness parameters
+
+2025-09-22 03:29:50,047 - INFO - typically lead to wider prediction intervals but better coverage
+
+2025-09-22 03:29:50,047 - INFO - guarantees under distribution shifts.
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "",
+
+"stderr": "2025-09-22 03:29:50,040 - INFO - Starting LP Robust Conformal Prediction Experiment\n2025-09-22 03:29:50,040 - INFO - ============================================================\n2025-09-22 03:29:50,040 - INFO - Generating time series data with distribution shift...\n2025-09-22 03:29:50,041 - INFO - Applied distribution shift at index 300 with magnitude 3.0\n2025-09-22 03:29:50,041 - INFO - Generated time series with 500 samples\n2025-09-22 03:29:50,041 - INFO - Generating forecasts...\n2025-09-22 03:29:50,044 - INFO - Data split: 250 calibration, 250 test samples\n2025-09-22 03:29:50,044 - INFO - Distribution shift occurs at index 300 (test index: 50)\n2025-09-22 03:29:50,044 - INFO - --------------------------------------------------\n2025-09-22 03:29:50,044 - INFO - Testing \u03b5=0.0, \u03c1=0.0\n2025-09-22 03:29:50,044 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.0\n2025-09-22 03:29:50,045 - INFO - Standard quantile (0.904): 1.4896\n2025-09-22 03:29:50,045 - INFO - LP robust quantile (0.904 + \u03b5=0.0): 1.4896\n2025-09-22 03:29:50,045 - INFO - Calibration completed. Calculated quantile: 1.4896\n2025-09-22 03:29:50,045 - INFO - Calibration scores range: [0.0000, 2.9291]\n2025-09-22 03:29:50,045 - INFO - Generated prediction intervals with width: 2.9791\n2025-09-22 03:29:50,045 - INFO - Empirical coverage: 87.60% (Target: 90.00%)\n2025-09-22 03:29:50,045 - INFO - Average interval width: 2.9791\n2025-09-22 03:29:50,045 - INFO - --------------------------------------------------\n2025-09-22 03:29:50,045 - INFO - Testing \u03b5=0.1, \u03c1=0.05\n2025-09-22 03:29:50,045 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.1, rho=0.05\n2025-09-22 03:29:50,045 - INFO - Standard quantile (0.904): 1.4896\n2025-09-22 03:29:50,045 - INFO - LP robust quantile (0.954 + \u03b5=0.1): 1.8549\n2025-09-22 03:29:50,045 - INFO - Calibration completed. Calculated quantile: 1.8549\n2025-09-22 03:29:50,045 - INFO - Calibration scores range: [0.0000, 2.9291]\n2025-09-22 03:29:50,045 - INFO - Generated prediction intervals with width: 3.7099\n2025-09-22 03:29:50,045 - INFO - Empirical coverage: 93.60% (Target: 90.00%)\n2025-09-22 03:29:50,046 - INFO - Average interval width: 3.7099\n2025-09-22 03:29:50,046 - INFO - --------------------------------------------------\n2025-09-22 03:29:50,046 - INFO - Testing \u03b5=0.2, \u03c1=0.1\n2025-09-22 03:29:50,046 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.2, rho=0.1\n2025-09-22 03:29:50,046 - INFO - Standard quantile (0.904): 1.4896\n2025-09-22 03:29:50,046 - INFO - LP robust quantile (1.000 + \u03b5=0.2): 3.1291\n2025-09-22 03:29:50,046 - INFO - Calibration completed. Calculated quantile: 3.1291\n2025-09-22 03:29:50,046 - INFO - Calibration scores range: [0.0000, 2.9291]\n2025-09-22 03:29:50,046 - INFO - Generated prediction intervals with width: 6.2583\n2025-09-22 03:29:50,046 - INFO - Empirical coverage: 97.60% (Target: 90.00%)\n2025-09-22 03:29:50,046 - INFO - Average interval width: 6.2583\n2025-09-22 03:29:50,046 - INFO - --------------------------------------------------\n2025-09-22 03:29:50,046 - INFO - Testing \u03b5=0.3, \u03c1=0.15\n2025-09-22 03:29:50,046 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.3, rho=0.15\n2025-09-22 03:29:50,046 - INFO - Standard quantile (0.904): 1.4896\n2025-09-22 03:29:50,046 - INFO - LP robust quantile (1.000 + \u03b5=0.3): 3.2291\n2025-09-22 03:29:50,046 - INFO - Calibration completed. Calculated quantile: 3.2291\n2025-09-22 03:29:50,046 - INFO - Calibration scores range: [0.0000, 2.9291]\n2025-09-22 03:29:50,046 - INFO - Generated prediction intervals with width: 6.4583\n2025-09-22 03:29:50,046 - INFO - Empirical coverage: 98.00% (Target: 90.00%)\n2025-09-22 03:29:50,047 - INFO - Average interval width: 6.4583\n2025-09-22 03:29:50,047 - INFO - ============================================================\n2025-09-22 03:29:50,047 - INFO - EXPERIMENT SUMMARY\n2025-09-22 03:29:50,047 - INFO - ============================================================\n2025-09-22 03:29:50,047 - INFO - \u03b5=0.0, \u03c1=0.00: Coverage=87.6%, Width=2.979, Quantile=1.490\n2025-09-22 03:29:50,047 - INFO - \u03b5=0.1, \u03c1=0.05: Coverage=93.6%, Width=3.710, Quantile=1.855\n2025-09-22 03:29:50,047 - INFO - \u03b5=0.2, \u03c1=0.10: Coverage=97.6%, Width=6.258, Quantile=3.129\n2025-09-22 03:29:50,047 - INFO - \u03b5=0.3, \u03c1=0.15: Coverage=98.0%, Width=6.458, Quantile=3.229\n2025-09-22 03:29:50,047 - INFO - ============================================================\n2025-09-22 03:29:50,047 - INFO - CONCLUSION\n2025-09-22 03:29:50,047 - INFO - ============================================================\n2025-09-22 03:29:50,047 - INFO - The experiment demonstrates that LP robust conformal prediction\n2025-09-22 03:29:50,047 - INFO - can maintain valid coverage under distribution shifts by adjusting\n2025-09-22 03:29:50,047 - INFO - the robustness parameters (\u03b5 and \u03c1). Higher robustness parameters\n2025-09-22 03:29:50,047 - INFO - typically lead to wider prediction intervals but better coverage\n2025-09-22 03:29:50,047 - INFO - guarantees under distribution shifts.\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 7578.78 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+
+=== Experiment Errors ===
+
+2025-09-22 03:29:50,903 - INFO - Starting LP Robust Conformal Prediction Experiment
+
+2025-09-22 03:29:50,903 - INFO - ============================================================
+
+2025-09-22 03:29:50,904 - INFO - Generating time series data with distribution shift...
+
+2025-09-22 03:29:50,904 - INFO - Applied distribution shift at index 300 with magnitude 3.0
+
+2025-09-22 03:29:50,904 - INFO - Generated time series with 500 samples
+
+2025-09-22 03:29:50,904 - INFO - Generating forecasts...
+
+2025-09-22 03:29:50,907 - INFO - Data split: 250 calibration, 250 test samples
+
+2025-09-22 03:29:50,907 - INFO - Distribution shift occurs at index 300 (test index: 50)
+
+2025-09-22 03:29:50,907 - INFO - --------------------------------------------------
+
+2025-09-22 03:29:50,907 - INFO - Testing ε=0.0, ρ=0.0
+
+2025-09-22 03:29:50,907 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.0
+
+2025-09-22 03:29:50,907 - INFO - Standard quantile (0.904): 1.4710
+
+2025-09-22 03:29:50,907 - INFO - LP robust quantile (0.904 + ε=0.0): 1.4710
+
+2025-09-22 03:29:50,907 - INFO - Calibration completed. Calculated quantile: 1.4710
+
+2025-09-22 03:29:50,907 - INFO - Calibration scores range: [0.0000, 2.5793]
+
+2025-09-22 03:29:50,907 - INFO - Generated prediction intervals with width: 2.9420
+
+2025-09-22 03:29:50,907 - INFO - Empirical coverage: 86.00% (Target: 90.00%)
+
+2025-09-22 03:29:50,907 - INFO - Average interval width: 2.9420
+
+2025-09-22 03:29:50,907 - INFO - --------------------------------------------------
+
+2025-09-22 03:29:50,907 - INFO - Testing ε=0.1, ρ=0.05
+
+2025-09-22 03:29:50,908 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.1, rho=0.05
+
+2025-09-22 03:29:50,908 - INFO - Standard quantile (0.904): 1.4710
+
+2025-09-22 03:29:50,908 - INFO - LP robust quantile (0.954 + ε=0.1): 1.8964
+
+2025-09-22 03:29:50,908 - INFO - Calibration completed. Calculated quantile: 1.8964
+
+2025-09-22 03:29:50,908 - INFO - Calibration scores range: [0.0000, 2.5793]
+
+2025-09-22 03:29:50,908 - INFO - Generated prediction intervals with width: 3.7927
+
+2025-09-22 03:29:50,908 - INFO - Empirical coverage: 92.00% (Target: 90.00%)
+
+2025-09-22 03:29:50,908 - INFO - Average interval width: 3.7927
+
+2025-09-22 03:29:50,908 - INFO - --------------------------------------------------
+
+2025-09-22 03:29:50,908 - INFO - Testing ε=0.2, ρ=0.1
+
+2025-09-22 03:29:50,908 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.2, rho=0.1
+
+2025-09-22 03:29:50,908 - INFO - Standard quantile (0.904): 1.4710
+
+2025-09-22 03:29:50,908 - INFO - LP robust quantile (1.000 + ε=0.2): 2.7793
+
+2025-09-22 03:29:50,908 - INFO - Calibration completed. Calculated quantile: 2.7793
+
+2025-09-22 03:29:50,908 - INFO - Calibration scores range: [0.0000, 2.5793]
+
+2025-09-22 03:29:50,908 - INFO - Generated prediction intervals with width: 5.5585
+
+2025-09-22 03:29:50,908 - INFO - Empirical coverage: 99.20% (Target: 90.00%)
+
+2025-09-22 03:29:50,908 - INFO - Average interval width: 5.5585
+
+2025-09-22 03:29:50,908 - INFO - --------------------------------------------------
+
+2025-09-22 03:29:50,908 - INFO - Testing ε=0.3, ρ=0.15
+
+2025-09-22 03:29:50,909 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.3, rho=0.15
+
+2025-09-22 03:29:50,909 - INFO - Standard quantile (0.904): 1.4710
+
+2025-09-22 03:29:50,909 - INFO - LP robust quantile (1.000 + ε=0.3): 2.8793
+
+2025-09-22 03:29:50,909 - INFO - Calibration completed. Calculated quantile: 2.8793
+
+2025-09-22 03:29:50,909 - INFO - Calibration scores range: [0.0000, 2.5793]
+
+2025-09-22 03:29:50,909 - INFO - Generated prediction intervals with width: 5.7585
+
+2025-09-22 03:29:50,909 - INFO - Empirical coverage: 99.60% (Target: 90.00%)
+
+2025-09-22 03:29:50,909 - INFO - Average interval width: 5.7585
+
+2025-09-22 03:29:50,909 - INFO - ============================================================
+
+2025-09-22 03:29:50,909 - INFO - EXPERIMENT SUMMARY
+
+2025-09-22 03:29:50,909 - INFO - ============================================================
+
+2025-09-22 03:29:50,909 - INFO - ε=0.0, ρ=0.00: Coverage=86.0%, Width=2.942, Quantile=1.471
+
+2025-09-22 03:29:50,909 - INFO - ε=0.1, ρ=0.05: Coverage=92.0%, Width=3.793, Quantile=1.896
+
+2025-09-22 03:29:50,909 - INFO - ε=0.2, ρ=0.10: Coverage=99.2%, Width=5.559, Quantile=2.779
+
+2025-09-22 03:29:50,909 - INFO - ε=0.3, ρ=0.15: Coverage=99.6%, Width=5.759, Quantile=2.879
+
+2025-09-22 03:29:50,909 - INFO - ============================================================
+
+2025-09-22 03:29:50,909 - INFO - CONCLUSION
+
+2025-09-22 03:29:50,909 - INFO - ============================================================
+
+2025-09-22 03:29:50,909 - INFO - The experiment demonstrates that LP robust conformal prediction
+
+2025-09-22 03:29:50,909 - INFO - can maintain valid coverage under distribution shifts by adjusting
+
+2025-09-22 03:29:50,909 - INFO - the robustness parameters (ε and ρ). Higher robustness parameters
+
+2025-09-22 03:29:50,909 - INFO - typically lead to wider prediction intervals but better coverage
+
+2025-09-22 03:29:50,909 - INFO - guarantees under distribution shifts.
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "",
+
+"stderr": "2025-09-22 03:29:50,903 - INFO - Starting LP Robust Conformal Prediction Experiment\n2025-09-22 03:29:50,903 - INFO - ============================================================\n2025-09-22 03:29:50,904 - INFO - Generating time series data with distribution shift...\n2025-09-22 03:29:50,904 - INFO - Applied distribution shift at index 300 with magnitude 3.0\n2025-09-22 03:29:50,904 - INFO - Generated time series with 500 samples\n2025-09-22 03:29:50,904 - INFO - Generating forecasts...\n2025-09-22 03:29:50,907 - INFO - Data split: 250 calibration, 250 test samples\n2025-09-22 03:29:50,907 - INFO - Distribution shift occurs at index 300 (test index: 50)\n2025-09-22 03:29:50,907 - INFO - --------------------------------------------------\n2025-09-22 03:29:50,907 - INFO - Testing \u03b5=0.0, \u03c1=0.0\n2025-09-22 03:29:50,907 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.0\n2025-09-22 03:29:50,907 - INFO - Standard quantile (0.904): 1.4710\n2025-09-22 03:29:50,907 - INFO - LP robust quantile (0.904 + \u03b5=0.0): 1.4710\n2025-09-22 03:29:50,907 - INFO - Calibration completed. Calculated quantile: 1.4710\n2025-09-22 03:29:50,907 - INFO - Calibration scores range: [0.0000, 2.5793]\n2025-09-22 03:29:50,907 - INFO - Generated prediction intervals with width: 2.9420\n2025-09-22 03:29:50,907 - INFO - Empirical coverage: 86.00% (Target: 90.00%)\n2025-09-22 03:29:50,907 - INFO - Average interval width: 2.9420\n2025-09-22 03:29:50,907 - INFO - --------------------------------------------------\n2025-09-22 03:29:50,907 - INFO - Testing \u03b5=0.1, \u03c1=0.05\n2025-09-22 03:29:50,908 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.1, rho=0.05\n2025-09-22 03:29:50,908 - INFO - Standard quantile (0.904): 1.4710\n2025-09-22 03:29:50,908 - INFO - LP robust quantile (0.954 + \u03b5=0.1): 1.8964\n2025-09-22 03:29:50,908 - INFO - Calibration completed. Calculated quantile: 1.8964\n2025-09-22 03:29:50,908 - INFO - Calibration scores range: [0.0000, 2.5793]\n2025-09-22 03:29:50,908 - INFO - Generated prediction intervals with width: 3.7927\n2025-09-22 03:29:50,908 - INFO - Empirical coverage: 92.00% (Target: 90.00%)\n2025-09-22 03:29:50,908 - INFO - Average interval width: 3.7927\n2025-09-22 03:29:50,908 - INFO - --------------------------------------------------\n2025-09-22 03:29:50,908 - INFO - Testing \u03b5=0.2, \u03c1=0.1\n2025-09-22 03:29:50,908 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.2, rho=0.1\n2025-09-22 03:29:50,908 - INFO - Standard quantile (0.904): 1.4710\n2025-09-22 03:29:50,908 - INFO - LP robust quantile (1.000 + \u03b5=0.2): 2.7793\n2025-09-22 03:29:50,908 - INFO - Calibration completed. Calculated quantile: 2.7793\n2025-09-22 03:29:50,908 - INFO - Calibration scores range: [0.0000, 2.5793]\n2025-09-22 03:29:50,908 - INFO - Generated prediction intervals with width: 5.5585\n2025-09-22 03:29:50,908 - INFO - Empirical coverage: 99.20% (Target: 90.00%)\n2025-09-22 03:29:50,908 - INFO - Average interval width: 5.5585\n2025-09-22 03:29:50,908 - INFO - --------------------------------------------------\n2025-09-22 03:29:50,908 - INFO - Testing \u03b5=0.3, \u03c1=0.15\n2025-09-22 03:29:50,909 - INFO - Initialized LP Conformal Prediction with alpha=0.1, epsilon=0.3, rho=0.15\n2025-09-22 03:29:50,909 - INFO - Standard quantile (0.904): 1.4710\n2025-09-22 03:29:50,909 - INFO - LP robust quantile (1.000 + \u03b5=0.3): 2.8793\n2025-09-22 03:29:50,909 - INFO - Calibration completed. Calculated quantile: 2.8793\n2025-09-22 03:29:50,909 - INFO - Calibration scores range: [0.0000, 2.5793]\n2025-09-22 03:29:50,909 - INFO - Generated prediction intervals with width: 5.7585\n2025-09-22 03:29:50,909 - INFO - Empirical coverage: 99.60% (Target: 90.00%)\n2025-09-22 03:29:50,909 - INFO - Average interval width: 5.7585\n2025-09-22 03:29:50,909 - INFO - ============================================================\n2025-09-22 03:29:50,909 - INFO - EXPERIMENT SUMMARY\n2025-09-22 03:29:50,909 - INFO - ============================================================\n2025-09-22 03:29:50,909 - INFO - \u03b5=0.0, \u03c1=0.00: Coverage=86.0%, Width=2.942, Quantile=1.471\n2025-09-22 03:29:50,909 - INFO - \u03b5=0.1, \u03c1=0.05: Coverage=92.0%, Width=3.793, Quantile=1.896\n2025-09-22 03:29:50,909 - INFO - \u03b5=0.2, \u03c1=0.10: Coverage=99.2%, Width=5.559, Quantile=2.779\n2025-09-22 03:29:50,909 - INFO - \u03b5=0.3, \u03c1=0.15: Coverage=99.6%, Width=5.759, Quantile=2.879\n2025-09-22 03:29:50,909 - INFO - ============================================================\n2025-09-22 03:29:50,909 - INFO - CONCLUSION\n2025-09-22 03:29:50,909 - INFO - ============================================================\n2025-09-22 03:29:50,909 - INFO - The experiment demonstrates that LP robust conformal prediction\n2025-09-22 03:29:50,909 - INFO - can maintain valid coverage under distribution shifts by adjusting\n2025-09-22 03:29:50,909 - INFO - the robustness parameters (\u03b5 and \u03c1). Higher robustness parameters\n2025-09-22 03:29:50,909 - INFO - typically lead to wider prediction intervals but better coverage\n2025-09-22 03:29:50,909 - INFO - guarantees under distribution shifts.\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 839.72 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+
+START RequestId: b1669045-14c6-4cd7-9308-776780e254a1 Version: $LATEST
+
+RequestId: b1669045-14c6-4cd7-9308-776780e254a1 Error: Runtime exited without providing a reason
+Runtime.ExitError
+
+END RequestId: b1669045-14c6-4cd7-9308-776780e254a1
+
+REPORT RequestId: b1669045-14c6-4cd7-9308-776780e254a1	Duration: 841.57 ms	Billed Duration: 842 ms	Memory Size: 3008 MB	Max Memory Used: 63 MB	
+
